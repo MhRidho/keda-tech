@@ -25,10 +25,10 @@ const Navbar = () => {
     <div
       className={`${
         isScroll ? "bg-[#FFD2CC] h-[60px] lg:-top-[60px]" : " h-[80px]"
-      } lg:px-[72px] px-5   w-full  z-[10] fixed  transition-all duration-300 ease-in-out  flex justify-between items-center`}
+      } lg:px-[72px] px-5 w-full z-[10] fixed transition-all duration-300 ease-in-out flex justify-between items-center`}
     >
-      <div className="w-[103px] h-[25px]">
-        <img src={logo} alt="" className="w-full h-full object-contain" />
+      <div className="w-28 h-[25px]">
+        <img src='https://media.cakeresume.com/image/upload/s--GwTGWRC8--/c_pad,fl_png8,h_400,w_400/v1669344934/ulutbewzlkzorhbghn2d.png' alt="logo-altech" className="w-full h-full object-contain" />
       </div>
       <ul className="hidden md:block">
         <li className="flex gap-5">
@@ -48,8 +48,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex items-center gap-x-3">
-        <button className="bg-white py-2 px-8 rounded-full outline-none">
-          Sign In
+        <button className="bg-white py-1 px-12 rounded-md border-blue-500 border-2 text-blue-500">
+          Login
         </button>
         <FiMenu
           size={24}

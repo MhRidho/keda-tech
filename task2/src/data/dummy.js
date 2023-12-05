@@ -11,24 +11,16 @@ import {
 
 export const navLink = [
   {
-    id: "home",
-    name: "Home",
-  },
-  {
-    id: "feature",
-    name: "Feature",
+    id: "about",
+    name: "About",
   },
   {
     id: "pricing",
     name: "Pricing",
   },
   {
-    id: "reward",
-    name: "Reward",
-  },
-  {
-    id: "healt",
-    name: "Health",
+    id: "contact",
+    name: "Contact",
   },
 ];
 
