@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
+
 body {
   box-sizing: border-box;
   padding: 0;
@@ -10,7 +11,4 @@ body {
 }
 * {
   transition: all 300ms ease-in-out;
-}
-.home {
-  background-image: url("asset/Ilustrasion.svg");
 }

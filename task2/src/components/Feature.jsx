@@ -4,10 +4,10 @@ const Feature = () => {
   return (
     <div className="w-full h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
       <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
-        3 STPES QUICK
+        ABOUT
       </h1>
       <h1 className="font-bold text-2xl lg:text-[30px]">
-        Claim Your Better Health
+        Claim Your Better Product
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {features.map((item, i) => {
